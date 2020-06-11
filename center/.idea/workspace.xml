@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="019de5b8-0996-4d3d-9373-ffadf50c1dfb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1cwniCiUxymo2paxF0pYSFj4UJb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.123456776" />
+    <property name="project.structure.side.proportion" value="0.14104372" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="center" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="center" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="center [file:/Users/user/apps/mrtc/center/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="center-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3183109852000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4273673305" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="019de5b8-0996-4d3d-9373-ffadf50c1dfb" name="Default Changelist" comment="" />
+      <created>1591448647486</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591448647486</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" width="811" height="669" key="#Project_Structure" timestamp="1591448866281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" width="811" height="669" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1591448866281" />
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1591911359419">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="212" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591911359419" />
+    <state x="482" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591914097672">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="482" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1591914097672" />
+    <state width="458" height="466" key="DebuggerActiveHint" timestamp="1591825154302">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="458" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1591825154302" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1591778554388">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1591778554388" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom" timestamp="1591914550967">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591913655365" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591914550967" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center" timestamp="1591914550966">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="368" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591913655363" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1591914550966" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left" timestamp="1591914550965">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="368" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591913655363" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1591914550965" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right" timestamp="1591914550967">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1398" height="368" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591913655364" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1591914550967" />
+    <state width="1398" height="357" key="GridCell.Tab.1.bottom" timestamp="1591911429758">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591911429758" />
+    <state width="1398" height="410" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591836917117" />
+    <state width="1398" height="357" key="GridCell.Tab.1.center" timestamp="1591911429757">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591911429757" />
+    <state width="1398" height="410" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1591836917115" />
+    <state width="1398" height="357" key="GridCell.Tab.1.left" timestamp="1591911429756">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591911429756" />
+    <state width="1398" height="410" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1591836917115" />
+    <state width="1398" height="357" key="GridCell.Tab.1.right" timestamp="1591911429758">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="357" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591911429758" />
+    <state width="1398" height="410" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1591836917116" />
+    <state x="208" y="23" width="1024" height="827" key="SettingsEditor" timestamp="1591452667670">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="23" width="1024" height="827" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591452667670" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1591778499864">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1591778395467" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1440.827@0.23.1440.827" timestamp="1591778499864" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591839695214">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1591839695214" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1591451713347">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591451713347" />
+    <state x="396" y="75" width="648" height="750" key="find.popup" timestamp="1591823220691">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="396" y="75" width="648" height="750" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1591823220691" />
+    <state x="97" y="176" key="new project wizard" timestamp="1591450141838">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="176" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1591450141838" />
+    <state x="385" y="180" width="670" height="736" key="search.everywhere.popup" timestamp="1591451692317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="180" width="670" height="736" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591451692317" />
+    <state x="385" y="188" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1591450937771" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala</url>
+          <line>102</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala</url>
+          <line>121</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/DemoSink.scala</url>
+          <line>33</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
