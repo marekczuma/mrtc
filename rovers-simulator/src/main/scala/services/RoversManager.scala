@@ -43,7 +43,7 @@ object RoversManager {
   }
 
   def generateRovers(): ListBuffer[Rover]={
-    val tmpRovers = ListBuffer((1 to 5).map(i=> new Rover(i,ListBuffer(Seq(1000+i,1000): _*))): _*)
+    val tmpRovers = ListBuffer((1 to 50).map(i=> new Rover(i,ListBuffer(Seq(1000+i,1000): _*))): _*)
     tmpRovers.foreach(r=> r.sendQuestionWithPlan())
     tmpRovers
   }
