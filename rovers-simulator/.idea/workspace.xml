@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7a7d23f-c668-41f7-829d-f689005d125d" name="Default Changelist" comment="" />
+    <list default="true" id="c7a7d23f-c668-41f7-829d-f689005d125d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../center/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/DemoSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/DemoSinkProvider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSinkProvider.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/transformations/ChangeDirectionsToCoordinatesUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/transformations/ChangeDirectionsToCoordinatesUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/transformations/MakeStepNUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/transformations/MakeStepNUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/transformations/SelectWrongTimesUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/transformations/SelectWrongTimesUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/transformations/SpecifyGoodTimeUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/transformations/SpecifyGoodTimeUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/transformations/TmpMakeAnswerUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/transformations/TmpMakeAnswerUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +33,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cwqjwNsHN64KpQhTaDjcHAtmOh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />

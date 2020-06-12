@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="019de5b8-0996-4d3d-9373-ffadf50c1dfb" name="Default Changelist" comment="" />
+    <list default="true" id="019de5b8-0996-4d3d-9373-ffadf50c1dfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/pipeline/DemoSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/pipeline/KafkaAnswersSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/pipeline/DemoSinkProvider.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/pipeline/KafkaAnswersSinkProvider.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/transformations/ChangeDirectionsToCoordinatesUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transformations/ChangeDirectionsToCoordinatesUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/transformations/MakeStepNUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transformations/MakeStepNUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/transformations/SelectWrongTimesUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transformations/SelectWrongTimesUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/transformations/SpecifyGoodTimeUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transformations/SpecifyGoodTimeUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/transformations/TmpMakeAnswerUDF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transformations/TmpMakeAnswerUDF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rovers-simulator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rovers-simulator/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +33,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cwniCiUxymo2paxF0pYSFj4UJb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -204,26 +216,5 @@
     </state>
     <state x="385" y="180" width="670" height="736" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1591451692317" />
     <state x="385" y="188" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1591450937771" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala</url>
-          <line>102</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/CollisionsStreaming.scala</url>
-          <line>121</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/pipeline/DemoSink.scala</url>
-          <line>33</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

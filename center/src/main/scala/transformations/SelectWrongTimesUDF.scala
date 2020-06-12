@@ -1,14 +1,13 @@
 package transformations
 
 import org.apache.spark.sql.Row
-import org.apache.spark.sql.api.java.{UDF1, UDF2}
+import org.apache.spark.sql.api.java.{UDF2}
 
 import scala.collection.mutable.ListBuffer
 
 class SelectWrongTimesUDF extends UDF2[Row, Int, ListBuffer[Long]]{
 
   val steps = ListBuffer("step_1", "step_2", "step_3", "step_4", "step_5")
-  val times = ListBuffer("time-1", "time-2", "time-3", "time-4", "time-5")
 
   override def call(row: Row, stepNumber: Int): ListBuffer[Long]= {
     val streamStepCoords: String = row.getAs[String](s"stream_step_${stepNumber}")
