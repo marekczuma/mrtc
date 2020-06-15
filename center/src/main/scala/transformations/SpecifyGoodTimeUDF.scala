@@ -3,7 +3,6 @@ package transformations
 import org.apache.spark.sql.Row
 import org.apache.spark.sql.api.java.UDF2
 
-import scala.collection.mutable
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 
 class SpecifyGoodTimeUDF extends UDF2[Row, Int, Int]{
@@ -15,9 +14,9 @@ class SpecifyGoodTimeUDF extends UDF2[Row, Int, Int]{
         .toList
         .sorted
 
-      var isOK = false
-      var currentTimeout = 0
-      var currentTime = System.currentTimeMillis()
+      var isOK: Boolean = false
+      var currentTimeout: Int = 0
+      var currentTime: Long = System.currentTimeMillis()
       if(stepNumber!=1){
         currentTimeout = row.getAs[Int](s"timeout_${stepNumber-1}")
         currentTime = System.currentTimeMillis() + 120000*(stepNumber-1) + currentTimeout*60000

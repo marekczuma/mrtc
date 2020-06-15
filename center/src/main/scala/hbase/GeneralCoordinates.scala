@@ -3,6 +3,10 @@ package hbase
 import org.apache.spark.sql.execution.datasources.hbase.HBaseTableCatalog
 import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
+/**
+ * Class for connecting with "coordinates" table in HBase.
+ * We use Hortonworks SHC here.
+ */
 object GeneralCoordinates {
   var coordinates: Dataset[Row] = null
 

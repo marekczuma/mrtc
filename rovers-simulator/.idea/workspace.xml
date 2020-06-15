@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c7a7d23f-c668-41f7-829d-f689005d125d" name="Default Changelist" comment="" />
+    <list default="true" id="c7a7d23f-c668-41f7-829d-f689005d125d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/hbase/CoordinatesRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/.metadata.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/sources/0/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-6c911d8b-11a0-4c1c-9f72-9ec612451b39.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-72071b8d-fed7-41c5-87c4-54e0834042ad.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-a07178d6-3fde-423d-a223-7e1f014a7357.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-eb934e8d-ff00-4259-9854-9b2bbc287d03.csv.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-6c911d8b-11a0-4c1c-9f72-9ec612451b39.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-72071b8d-fed7-41c5-87c4-54e0834042ad.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-a07178d6-3fde-423d-a223-7e1f014a7357.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-eb934e8d-ff00-4259-9854-9b2bbc287d03.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/hbase/GeneralCoordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/hbase/GeneralCoordinates.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/hbase/GlobalRepository.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/AnswersStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/AnswersStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/QuestionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/QuestionsStreaming.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Plan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Plan.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Rover.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Rover.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Step.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Step.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/services/RoversManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/services/RoversManager.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +56,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cwqjwNsHN64KpQhTaDjcHAtmOh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -169,10 +204,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1591839351836" />
-    <state x="409" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1591819904304">
+    <state x="409" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592222877278">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="409" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1591819904304" />
+    <state x="409" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592222877278" />
     <state x="396" y="200" width="648" height="500" key="find.popup" timestamp="1591823226689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -183,7 +218,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/App.scala</url>
-          <line>10</line>
+          <line>14</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>

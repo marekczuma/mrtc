@@ -5,7 +5,7 @@ import org.apache.spark.sql.api.java.UDF2
 class MakeStepNUDF extends UDF2[String, String, String]{
 
   override def call(startCoords: String, directions: String): String = {
-    val tmpCoord = startCoords.split(",").map(c=>c.toInt)
+    val tmpCoord: Array[Int] = startCoords.split(",").map(c=>c.toInt)
     for(d<- directions.split("")) yield {
       d.toUpperCase match {
         case "N" => tmpCoord(1) += 1
