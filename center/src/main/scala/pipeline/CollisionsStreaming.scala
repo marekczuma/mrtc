@@ -6,6 +6,16 @@ import transformations._
 import org.apache.spark.sql.functions._
 import org.apache.spark.sql.streaming.StreamingQuery
 
+/**
+ * Companion object for CollisionsStreaming class.
+ *
+ * Pattern of question: "{rover_id}-{current_coordinates}-{directions}"
+ * E.g. for rover with id 1: "1-10,12-NNWNW".
+ *
+ * Pattern of answer: "{rover-id}-{times}".
+ * E.g. answer for rover with id 1: "1-0,0,2,4,0" (it must wait 0min for first step, 0min for second,
+ * 2 minutes for third, 4 minutes for fourth, 0 min for fifth).
+ */
 object CollisionsStreaming {
   private val ExtractIDUDF = "extractIDUDF"
   private val ExtractCoordinatesUDF = "extractCoordinatesUDF"
@@ -21,9 +31,16 @@ object CollisionsStreaming {
   private val CoordinatorsPlanColumnName = "coordinators_plan"
 }
 
+/**
+ * Pipeline from consuming "questions" kafka topic to answering to "answers" topic in kafka.
+ * @param spark - spark session.
+ */
 class CollisionsStreaming(val spark: SparkSession) {
   import spark.implicits._
 
+  /**
+   * Construct pipeline.
+   */
   def run(): Unit ={
     registerUDFs()
     val questions: Dataset[Row] = readQuestions()
@@ -42,18 +59,13 @@ class CollisionsStreaming(val spark: SparkSession) {
       .load()
   }
 
-  def writeAnswers(answerDF: Dataset[Row]): StreamingQuery={
-    answerDF.select("answer")
-      .withColumnRenamed("answer", "value")
-      .writeStream
-      .outputMode("append")
-      .format("kafka")
-      .option("kafka.bootstrap.servers", "localhost:9092")
-      .option("topic", "answers")
-      .option("checkpointLocation", "/Users/user/apps/mrtc/center/checkpoints")
-      .start()
-  }
-
+  /**
+   * We can choose console sink - just for tests etc.
+   * We use KafkaAnswersSink here, which is custom Sink.
+   * @param answerDF
+   * @param forConsole
+   * @return
+   */
   def writeAnswers(answerDF: Dataset[Row], forConsole: Boolean): StreamingQuery={
     if(forConsole) {
       answerDF
@@ -69,6 +81,11 @@ class CollisionsStreaming(val spark: SparkSession) {
     }
   }
 
+  /**
+   * Extracting id, coordinates and directions from origin string.
+   * @param questionsDF
+   * @return
+   */
   def extractionTransformations(questionsDF: Dataset[Row]): Dataset[Row]={
     questionsDF.selectExpr("CAST(value AS STRING)")
       .as[String]
@@ -78,6 +95,12 @@ class CollisionsStreaming(val spark: SparkSession) {
       .withColumn(CollisionsStreaming.DirectionsColumnName, callUDF(CollisionsStreaming.ExtractDirectionsUDF, col("value")))
   }
 
+
+  /**
+   * changing directions to coordinates. E.g. "N" into the 1 point up on Y.
+   * @param extractedDF
+   * @return
+   */
   def changeToPlanCoordinates(extractedDF: Dataset[Row]): Dataset[Row]={
     extractedDF.withColumn("coordinators_plan", callUDF(CollisionsStreaming.ChangeDirectionsToCoordinatesUDF,
       col(CollisionsStreaming.CoordinatesColumnName),col("directions")))

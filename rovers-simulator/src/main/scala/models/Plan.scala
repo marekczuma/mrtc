@@ -2,12 +2,15 @@ package models
 
 import scala.collection.mutable.ListBuffer
 
+/**
+ * Plan of steps. Plan can be approved and has a few (5) steps.
+ */
 class Plan {
   val steps: ListBuffer[Step] = prepareRandomSteps()
   var isApproved: Boolean = false
 
   def activateNextStep(): Unit ={
-    val index = steps.indexOf(activeStep())
+    val index: Int = steps.indexOf(activeStep())
     steps(index).deactivateStep()
     if(index < steps.size - 1){
       steps(index + 1).activateStep()

@@ -9,6 +9,15 @@ import org.apache.spark.sql.execution.streaming.Sink
 import org.apache.spark.sql.functions.{callUDF, collect_list, lit, struct}
 import org.apache.spark.sql.streaming.OutputMode
 
+/**
+ * Custom sink. We add 2 operations to original pipeline.
+ * 1. decideTimeouts() - main algorithm.
+ * 2. makeFinalAnswer() - making final form of the answer.
+ * @param sqlContext
+ * @param parameters
+ * @param partitionColumns
+ * @param outputMode
+ */
 case class KafkaAnswersSink(
                      sqlContext: SQLContext,
                      parameters: Map[String, String],
