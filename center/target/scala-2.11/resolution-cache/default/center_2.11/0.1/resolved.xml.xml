@@ -4,7 +4,7 @@
 		module="center_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20200609020707"
+		publication="20200617222630"
 	>
 		<description>
 		center
@@ -35,5 +35,6 @@
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.11" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="com.hortonworks" name="shc-core" rev="1.1.1-2.1-s_2.11" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.8" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

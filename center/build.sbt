@@ -9,6 +9,7 @@ resolvers += "Hortonworks Repository" at "http://repo.hortonworks.com/content/re
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % "2.1.1",
   "org.apache.spark" %% "spark-sql-kafka-0-10" % "2.1.1",
-  "com.hortonworks" % "shc-core" % "1.1.1-2.1-s_2.11"
+  "com.hortonworks" % "shc-core" % "1.1.1-2.1-s_2.11",
+  "org.scalatest" %% "scalatest" % "3.0.8" % Test
 
 )

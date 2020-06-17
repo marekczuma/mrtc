@@ -4,7 +4,7 @@
 		module="rovers-simulator_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20200608183845"
+		publication="20200617164046"
 	>
 		<description>
 		rovers-simulator
@@ -36,5 +36,6 @@
 		<dependency org="org.apache.hbase" name="hbase-client" rev="2.0.6" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.4.5" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql-kafka-0-10_2.11" rev="2.4.5" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="3.0.8" conf="test->default(compile)"/>
 	</dependencies>
 </ivy-module>

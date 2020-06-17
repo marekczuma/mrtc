@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20200608183906"/>
+		date="20200617164055"/>
 	<dependencies>
 		<module organisation="org.apache.hbase" name="hbase-client">
 			<revision name="2.0.6" status="release" pubdate="20190814184552" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="121">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="39652" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-client/ivy-2.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/2.0.6/hbase-client-2.0.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.0.6" rev-constraint-default="2.0.6" rev-constraint-dynamic="2.0.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1091748" time="1134" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-client/srcs/hbase-client-2.0.6-sources.jar">
+					<artifact name="hbase-client" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1091748" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-client/srcs/hbase-client-2.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-client/2.0.6/hbase-client-2.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -27,7 +27,7 @@
 				<metadata-artifact status="no" details="" size="7270" time="0" location="/Users/user/.ivy2/cache/org.apache.zookeeper/zookeeper/ivy-3.4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="3.4.10" rev-constraint-default="3.4.10" rev-constraint-dynamic="3.4.10" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="592940" time="492" location="/Users/user/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.10-sources.jar">
+					<artifact name="zookeeper" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="592940" time="0" location="/Users/user/.ivy2/cache/org.apache.zookeeper/zookeeper/srcs/zookeeper-3.4.10-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.10/zookeeper-3.4.10-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="36241" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol-shaded/ivy-2.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol-shaded/2.0.6/hbase-protocol-shaded-2.0.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.0.6" rev-constraint-default="2.0.6" rev-constraint-dynamic="2.0.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-protocol-shaded" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1284720" time="1055" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol-shaded/srcs/hbase-protocol-shaded-2.0.6-sources.jar">
+					<artifact name="hbase-protocol-shaded" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1284720" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol-shaded/srcs/hbase-protocol-shaded-2.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol-shaded/2.0.6/hbase-protocol-shaded-2.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="37587" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-common/ivy-2.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/2.0.6/hbase-common-2.0.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.0.6" rev-constraint-default="2.0.6" rev-constraint-dynamic="2.0.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="589338" time="1029" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-common/srcs/hbase-common-2.0.6-sources.jar">
+					<artifact name="hbase-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="589338" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-common/srcs/hbase-common-2.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-common/2.0.6/hbase-common-2.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -63,7 +63,7 @@
 				<metadata-artifact status="no" details="" size="3621" time="0" location="/Users/user/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/ivy-1.3.9-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="1.3.9-1" rev-constraint-default="1.3.9-1" rev-constraint-dynamic="1.3.9-1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="findbugs-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21566" time="349" location="/Users/user/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/srcs/findbugs-annotations-1.3.9-1-sources.jar">
+					<artifact name="findbugs-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21566" time="0" location="/Users/user/.ivy2/cache/com.github.stephenc.findbugs/findbugs-annotations/srcs/findbugs-annotations-1.3.9-1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/stephenc/findbugs/findbugs-annotations/1.3.9-1/findbugs-annotations-1.3.9-1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="6756" time="0" location="/Users/user/.ivy2/cache/org.apache.htrace/htrace-core4/ivy-4.2.0-incubating.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="4.2.0-incubating" rev-constraint-default="4.2.0-incubating" rev-constraint-dynamic="4.2.0-incubating" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="htrace-core4" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="46319" time="636" location="/Users/user/.ivy2/cache/org.apache.htrace/htrace-core4/srcs/htrace-core4-4.2.0-incubating-sources.jar">
+					<artifact name="htrace-core4" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="46319" time="0" location="/Users/user/.ivy2/cache/org.apache.htrace/htrace-core4/srcs/htrace-core4-4.2.0-incubating-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/htrace/htrace-core4/4.2.0-incubating/htrace-core4-4.2.0-incubating-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -87,7 +87,7 @@
 				<metadata-artifact status="no" details="" size="23695" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.9.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.2/jackson-databind-2.9.9.2.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.9.9.2" rev-constraint-default="2.9.9.2" rev-constraint-dynamic="2.9.9.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="998030" time="735" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.9.2-sources.jar">
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="998030" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.9.9.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.2/jackson-databind-2.9.9.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="4948" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-shaded-netty" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3155325" time="1847" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/srcs/hbase-shaded-netty-2.1.0-sources.jar">
+					<artifact name="hbase-shaded-netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3155325" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-netty/srcs/hbase-shaded-netty-2.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-netty/2.1.0/hbase-shaded-netty-2.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="11588" time="0" location="/Users/user/.ivy2/cache/commons-io/commons-io/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="275699" time="255" location="/Users/user/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.5-sources.jar">
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275699" time="0" location="/Users/user/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -147,7 +147,7 @@
 				<metadata-artifact status="no" details="" size="4994" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-miscellaneous/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-shaded-miscellaneous" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="2547688" time="1658" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-miscellaneous/srcs/hbase-shaded-miscellaneous-2.1.0-sources.jar">
+					<artifact name="hbase-shaded-miscellaneous" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2547688" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-miscellaneous/srcs/hbase-shaded-miscellaneous-2.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-miscellaneous/2.1.0/hbase-shaded-miscellaneous-2.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -219,7 +219,7 @@
 				<metadata-artifact status="no" details="" size="6969" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="68177" time="241" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.0-sources.jar">
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="68177" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.9.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -279,7 +279,7 @@
 				<metadata-artifact status="no" details="" size="36048" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol/ivy-2.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/2.0.6/hbase-protocol-2.0.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.0.6" rev-constraint-default="2.0.6" rev-constraint-dynamic="2.0.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-protocol" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="724907" time="1043" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-2.0.6-sources.jar">
+					<artifact name="hbase-protocol" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="724907" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase/hbase-protocol/srcs/hbase-protocol-2.0.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/hbase-protocol/2.0.6/hbase-protocol-2.0.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -315,7 +315,7 @@
 				<metadata-artifact status="no" details="" size="3593" time="0" location="/Users/user/.ivy2/cache/org.jruby.joni/joni/ivy-2.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jruby/joni/joni/2.1.11/joni-2.1.11.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.1.11" rev-constraint-default="2.1.11" rev-constraint-dynamic="2.1.11" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="joni" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="163671" time="398" location="/Users/user/.ivy2/cache/org.jruby.joni/joni/srcs/joni-2.1.11-sources.jar">
+					<artifact name="joni" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="163671" time="0" location="/Users/user/.ivy2/cache/org.jruby.joni/joni/srcs/joni-2.1.11-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jruby/joni/joni/2.1.11/joni-2.1.11-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -327,7 +327,7 @@
 				<metadata-artifact status="no" details="" size="4808" time="0" location="/Users/user/.ivy2/cache/org.apache.yetus/audience-annotations/ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="audience-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14325" time="529" location="/Users/user/.ivy2/cache/org.apache.yetus/audience-annotations/srcs/audience-annotations-0.5.0-sources.jar">
+					<artifact name="audience-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14325" time="0" location="/Users/user/.ivy2/cache/org.apache.yetus/audience-annotations/srcs/audience-annotations-0.5.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -375,7 +375,7 @@
 				<metadata-artifact status="no" details="" size="22913" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="336575" time="655" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.9-sources.jar">
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="336575" time="0" location="/Users/user/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.9.9-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -387,7 +387,7 @@
 				<metadata-artifact status="no" details="" size="5152" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-protobuf/ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hbase-shaded-protobuf" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="783739" time="740" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-protobuf/srcs/hbase-shaded-protobuf-2.1.0-sources.jar">
+					<artifact name="hbase-shaded-protobuf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="783739" time="0" location="/Users/user/.ivy2/cache/org.apache.hbase.thirdparty/hbase-shaded-protobuf/srcs/hbase-shaded-protobuf-2.1.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hbase/thirdparty/hbase-shaded-protobuf/2.1.0/hbase-shaded-protobuf-2.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -399,7 +399,7 @@
 				<metadata-artifact status="no" details="" size="13392" time="0" location="/Users/user/.ivy2/cache/org.apache.commons/commons-lang3/ivy-3.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="3.6" rev-constraint-default="3.6" rev-constraint-dynamic="3.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="543262" time="712" location="/Users/user/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.6-sources.jar">
+					<artifact name="commons-lang3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="543262" time="0" location="/Users/user/.ivy2/cache/org.apache.commons/commons-lang3/srcs/commons-lang3-3.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -963,7 +963,7 @@
 				<metadata-artifact status="no" details="" size="5139" time="0" location="/Users/user/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-3.2.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="3.2.6" rev-constraint-default="3.2.6" rev-constraint-dynamic="3.2.6" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="63268" time="658" location="/Users/user/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.2.6-sources.jar">
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="63268" time="0" location="/Users/user/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-3.2.6-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/3.2.6/metrics-core-3.2.6-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1470,7 +1470,7 @@
 				<metadata-artifact status="no" details="" size="3166" time="0" location="/Users/user/.ivy2/cache/org.jruby.jcodings/jcodings/ivy-1.0.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.18/jcodings-1.0.18.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="1.0.18" rev-constraint-default="1.0.18" rev-constraint-dynamic="1.0.18" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jcodings" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1553374" time="752" location="/Users/user/.ivy2/cache/org.jruby.jcodings/jcodings/srcs/jcodings-1.0.18-sources.jar">
+					<artifact name="jcodings" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1553374" time="0" location="/Users/user/.ivy2/cache/org.jruby.jcodings/jcodings/srcs/jcodings-1.0.18-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jruby/jcodings/jcodings/1.0.18/jcodings-1.0.18-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -1990,7 +1990,7 @@
 				<metadata-artifact status="no" details="" size="3317" time="0" location="/Users/user/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="200355" time="585" location="/Users/user/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
+					<artifact name="junit" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="200355" time="0" location="/Users/user/.ivy2/cache/junit/junit/srcs/junit-4.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -2002,7 +2002,7 @@
 				<metadata-artifact status="no" details="" size="2617" time="0" location="/Users/user/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
 				<caller organisation="default" name="rovers-simulator$sources" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="32624" time="548" location="/Users/user/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
+					<artifact name="hamcrest-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="32624" time="0" location="/Users/user/.ivy2/cache/org.hamcrest/hamcrest-core/srcs/hamcrest-core-1.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
 					</artifact>
 				</artifacts>
