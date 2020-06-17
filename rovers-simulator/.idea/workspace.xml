@@ -2,39 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a7d23f-c668-41f7-829d-f689005d125d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/hbase/CoordinatesRepository.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/.idea/modules/center.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/.idea/modules/center.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../center/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/.metadata.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/metadata" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/offsets/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/checkpointsCSV/sources/0/0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-6c911d8b-11a0-4c1c-9f72-9ec612451b39.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-72071b8d-fed7-41c5-87c4-54e0834042ad.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-a07178d6-3fde-423d-a223-7e1f014a7357.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/.part-00000-eb934e8d-ff00-4259-9854-9b2bbc287d03.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/_spark_metadata/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-6c911d8b-11a0-4c1c-9f72-9ec612451b39.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-72071b8d-fed7-41c5-87c4-54e0834042ad.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-a07178d6-3fde-423d-a223-7e1f014a7357.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/csvDir/part-00000-eb934e8d-ff00-4259-9854-9b2bbc287d03.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/hbase/GeneralCoordinates.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/hbase/GeneralCoordinates.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/CollisionsStreaming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSink.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../center/src/main/scala/pipeline/KafkaAnswersSink.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../center/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/default/center_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/scala-2.11/resolution-cache/reports/default-center_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../center/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../center/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/rovers-simulator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/rovers-simulator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/App.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/App.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/hbase/GlobalRepository.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/AnswersStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/AnswersStreaming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/kafka/QuestionsStreaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/kafka/QuestionsStreaming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Plan.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Plan.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Rover.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Rover.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/models/Step.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/models/Step.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/services/RoversManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/services/RoversManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$273fe8b7850062ed6596$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$273fe8b7850062ed6596.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$273fe8b7850062ed6596.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/App$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/App$$anon$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/App$$anon$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/App$$anon$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/App$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/App$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/hbase/GlobalRepository$$anonfun$putRowToTable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/hbase/GlobalRepository$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/hbase/GlobalRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/AnswersStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/AnswersStreaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/QuestionsStreaming$$anonfun$run$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/QuestionsStreaming$$anonfun$run$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/QuestionsStreaming$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/kafka/QuestionsStreaming$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan$$anonfun$activeStep$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan$$anonfun$activeStep$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan$$anonfun$prepareRandomSteps$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan$$anonfun$prepareRandomSteps$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Plan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$approvePlan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$approvePlan$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepToTimestampInMillisecs$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepToTimestampInMillisecs$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepToTimestampInMillisecs$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepToTimestampInMillisecs$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepsToCoords$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepsToCoords$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepsToCoords$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover$$anonfun$changeStepsToCoords$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Rover.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Step$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Step$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/models/Step.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/models/Step.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$generateRovers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$generateRovers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$runTheWorld$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$runTheWorld$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$sendAnswers$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$sendAnswers$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$sendAnswers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$$anonfun$sendAnswers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/services/RoversManager$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator$sources/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator$sources/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator$sources/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator$sources/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator_2.11/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator_2.11/0.1/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator_2.11/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/default/rovers-simulator_2.11/0.1/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/resolution-cache/reports/default-rovers-simulator_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +150,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="ScalaTest.StepSpec">
     <configuration name="App" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="rovers-simulator" />
@@ -82,8 +158,93 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlanSpec.A Plan should have second step as active" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="rovers-simulator" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="models.PlanSpec" />
+      <option name="testName" value="A Plan should have second step as active" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="rovers-simulator" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="models.RoverSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoverSpec.A Rover should have new plan" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="rovers-simulator" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="models.RoverSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="rovers-simulator" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="models.StepSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.StepSpec" />
+        <item itemvalue="ScalaTest.PlanSpec.A Plan should have second step as active" />
+        <item itemvalue="ScalaTest.RoverSpec.A Rover should have new plan" />
+        <item itemvalue="ScalaTest.RoverSpec" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -115,8 +276,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3183084439000" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2442355147" />
+        <entry key="$PROJECT_DIR$" value="3183854964000" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4068719248" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
       </map>
     </option>
@@ -156,45 +317,45 @@
     </state>
     <state width="470" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1591835280919" />
     <state width="490" height="466" key="DebuggerActiveHint/0.23.1440.827@0.23.1440.827" timestamp="1591572745123" />
-    <state width="1398" height="309" key="GridCell.Tab.0.bottom" timestamp="1591915196113">
+    <state width="1398" height="309" key="GridCell.Tab.0.bottom" timestamp="1592425410750">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591915196113" />
+    <state width="1398" height="309" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592425410750" />
     <state width="1398" height="309" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591912664479" />
-    <state width="1398" height="309" key="GridCell.Tab.0.center" timestamp="1591915196112">
+    <state width="1398" height="309" key="GridCell.Tab.0.center" timestamp="1592425410744">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591915196112" />
+    <state width="1398" height="309" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592425410744" />
     <state width="1398" height="309" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1591912664478" />
-    <state width="1398" height="309" key="GridCell.Tab.0.left" timestamp="1591915196111">
+    <state width="1398" height="309" key="GridCell.Tab.0.left" timestamp="1592425410741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591915196111" />
+    <state width="1398" height="309" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592425410741" />
     <state width="1398" height="309" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1591912664477" />
-    <state width="1398" height="309" key="GridCell.Tab.0.right" timestamp="1591915196113">
+    <state width="1398" height="309" key="GridCell.Tab.0.right" timestamp="1592425410747">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="309" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591915196113" />
+    <state width="1398" height="309" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592425410747" />
     <state width="1398" height="309" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1591912664478" />
-    <state width="1398" height="364" key="GridCell.Tab.1.bottom" timestamp="1591839751537">
+    <state width="1398" height="364" key="GridCell.Tab.1.bottom" timestamp="1592405479640">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="364" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591839751537" />
+    <state width="1398" height="364" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592405479640" />
     <state width="1398" height="364" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1591573954835" />
-    <state width="1398" height="364" key="GridCell.Tab.1.center" timestamp="1591839751535">
+    <state width="1398" height="364" key="GridCell.Tab.1.center" timestamp="1592405479639">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="364" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1591839751535" />
+    <state width="1398" height="364" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1592405479639" />
     <state width="1398" height="364" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1591573954834" />
-    <state width="1398" height="364" key="GridCell.Tab.1.left" timestamp="1591839751534">
+    <state width="1398" height="364" key="GridCell.Tab.1.left" timestamp="1592405479638">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="364" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1591839751534" />
+    <state width="1398" height="364" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1592405479638" />
     <state width="1398" height="364" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1591573954833" />
-    <state width="1398" height="364" key="GridCell.Tab.1.right" timestamp="1591839751535">
+    <state width="1398" height="364" key="GridCell.Tab.1.right" timestamp="1592405479640">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="364" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1591839751535" />
+    <state width="1398" height="364" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1592405479640" />
     <state width="1398" height="364" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1591573954834" />
     <state x="208" y="31" key="SettingsEditor" timestamp="1591529101698">
       <screen x="0" y="0" width="1440" height="900" />
@@ -204,10 +365,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1591839351836" />
-    <state x="409" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592222877278">
+    <state x="409" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1592424666619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="409" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592222877278" />
+    <state x="409" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1592424666619" />
     <state x="396" y="200" width="648" height="500" key="find.popup" timestamp="1591823226689">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -220,6 +381,21 @@
           <url>file://$PROJECT_DIR$/src/main/scala/App.scala</url>
           <line>14</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/models/PlanSpec.scala</url>
+          <line>9</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/models/PlanSpec.scala</url>
+          <line>11</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/models/PlanSpec.scala</url>
+          <line>12</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
